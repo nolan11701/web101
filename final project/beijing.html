@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Beijing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-size: 12px;
+        }
+
+        .d {
+            color: red;
+            font-size: 200%;
+        }
+
+        .d p {
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            padding: 15px;
+        }
+
+        .topnav {
+            background-color: blue;
+            overflow: hidden;
+            margin: 0px;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        @keyframes myAnimation {
+            0% {
+                color: red;
+                font-size: 20px;
+                background: blue;
+                left: -1000px;
+                ;
+                opacity: 0.2
+            }
+
+            10% {
+                color: orange;
+                font-size: 20px;
+                background: aqua;
+                opacity: 0.4
+            }
+
+            20% {
+                color: green;
+                font-size: 20px;
+                background: yellow;
+                opacity: 0.4
+            }
+
+            40% {
+                color: blue;
+                font-size: 20px;
+                background: red;
+                opacity: 0.6
+            }
+
+            60% {
+                color: yellow;
+                font-size: 20px;
+                background: green;
+                opacity: 0.8
+            }
+
+            80% {
+                color: purple;
+                font-size: 20px;
+                background: pink;
+                opacity: 1
+            }
+
+            100% {
+                color: white;
+                font-size: 20px;
+                background: black;
+                left: 1000px
+            }
+        }
+
+        #demo {
+            font-size: 40px;
+            width: 400px;
+            position: relative;
+            margin: auto;
+            animation-name: myAnimation;
+            animation-duration: 10s;
+            animation-iteration-count: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="beijing.html">Home</a>
+        <a href="places.html">Places to go</a>
+        <a href="maps.html">Map of Beijing</a>
+    </div>
+    <div class="d">
+        <img src="great.jpg" width="100%">
+        <h1 id="demo">Welcome to Beijing !!!</h1>
+        <p>Welcome to Beijing, a city with amazing wonders that can dazzle your mind. Beijing is a city that has a rich
+            history filled with 3000 years of culture. Few cities in the world have served for so long as the political
+            headquarters and cultural center of an area as immense as China. The city has been a part of China’s history
+            over the past eight centuries, and nearly every major building of any age in Beijing has at least some
+            national history in it. The importance of Beijing makes it impossible to understand China without a this
+            city. Beijing was established in the Yuan dynasty, and it was renamed to Beijing in the Ming dynasty.</p>
+    </div>
+    </div>
+</body>
+
+</html>

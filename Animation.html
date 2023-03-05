@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        @keyframes myAnimation {
+            0% { color:red; font-size:20px; background:blue; top:400px; opacity:0.2}
+            20% { color:green; font-size:20px; background:yellow; opacity:0.4}
+            40% { color:blue; font-size:20px; background:red; opacity:0.6}
+            60% { color:yellow; font-size:20px; background:green; opacity:0.8}
+            80% { color:purple; font-size:20px; background:pink; opacity:1}
+            100% { color:white; font-size:20px; background:black; top: 200px;}
+        }
+        #demo{
+            font-size:40px;
+            width:260px;
+            position:relative;
+            margin:auto;
+            animation-name:myAnimation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <span id="demo">
+        ANIMATION
+    </span>
+</body>
+</html>
